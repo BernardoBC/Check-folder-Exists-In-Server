@@ -22,8 +22,8 @@ strReadFile = ".\servers.txt"
 strWriteFile = ".\DebugInfo.csv"
 
 'Credentials
-strUser = "infra\joseiby.hernandez"
-strPassword = "Portami.0" 'insert infra credentials
+strUser = "infra\"
+strPassword = "" 'insert infra credentials
 
 'Set up Input file
 Set objFS = CreateObject("Scripting.FileSystemObject")
